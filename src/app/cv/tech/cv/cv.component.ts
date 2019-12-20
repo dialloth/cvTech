@@ -13,7 +13,7 @@ personnes: Personne[];
 
   ngOnInit() {
     this.personnes = [
-      new Personne( 1, 'Diallo', 'Alseny', 33, 'maphoto.jpg', 77777, 'développer'),
+      new Personne( 1, 'Diallo', 'billo', 33, 'maphoto.jpg', 77777, 'développer'),
       
     ];
   }
