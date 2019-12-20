@@ -1,0 +1,21 @@
+<!-- <style>
+.divi {
+ 	width: 150px;
+ 	height: 150px;
+ 	border: 1px back solid;
+ 	padding: 50px;
+ }
+</style> -->
+
+<div [style.backgroundColor]="color">
+ 	color 
+</div>
+
+<input  #inputC  (change)="changeColor(inputC)" type="text" class="form-control">
+
+<!-- <div> Months :
+   <select>
+      <option *ngFor="let b of months">{{b}}</option>
+   </select>
+</div> -->
+<p *ngFor="let b of months"> {{c}} </p>

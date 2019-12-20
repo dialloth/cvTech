@@ -1,0 +1,12 @@
+ p {
+ 	background-color: violet;
+ }
+
+  .divi {
+	 	width: 150px;
+	 	height: 150px;
+	 	border: 1px violet solid;
+	 	padding: 0px;
+	 	font-weight: border;
+	 	text-align: center;
+ }

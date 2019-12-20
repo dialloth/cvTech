@@ -1,0 +1,16 @@
+
+#vidi{
+	background-color: red;
+	color: white;
+	font-size: 25px;
+	font-family: trebuchet;
+}
+button {
+	background-color: violet;
+	font-size: 25px;
+	border-radius: 2px;
+}
+/*#blog {
+	background-color: white;
+	color: red;
+}*/

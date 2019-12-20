@@ -1,0 +1,49 @@
+
+body {
+  background-color: chartreuse;
+  width: 70%;
+  height: 70%;
+  color: black;
+}
+
+#foot  {
+  border: 1px solid silver;
+  background-color: chartreuse;
+  color: red;
+  text-align: center;
+  border-radius: 75px;
+  height:120px;
+  width: 100%;
+  box-shadow: 10px 10px 8px darkgreen;
+}
+
+
+  /* Responsive Styles */
+  @media screen and (max-width: 767px) {
+
+    .card-container > *:not(.circle-link) ,
+    .terminal {
+      width: 100%;
+    }
+
+    .card:not(.highlight-card) {
+      height: 16px;
+      margin: 8px 0;
+    }
+
+    .card.highlight-card span {
+      margin-left: 72px;
+    }
+
+    svg#rocket-smoke {
+      right: 120px;
+      transform: rotate(-5deg);
+    }
+  }
+
+  @media screen and (max-width: 575px) {
+    svg#rocket-smoke {
+      display: none;
+      visibility: hidden;
+    }
+  }
