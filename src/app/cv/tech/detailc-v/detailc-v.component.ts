@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { Personne } from '../../Model/Personne';
+import {Personne} from '../../../Model/Personne';
 @Component({
   selector: 'app-detailc-v',
   templateUrl: './detailc-v.component.html',

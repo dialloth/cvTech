@@ -14,7 +14,7 @@ selectedPersonne: Personne;
 
   ngOnInit() {
     this.personnes = [
-      new Personne( 1, 'Diallo', 'Thierno', 33, 'maphoto.jpg', 77777, 'développer'),
+      new Personne( 1, 'Diallo', 'Thierno', 30, 'maphoto.jpg', 77777, 'développer'),
       new Personne( 2, 'Barry', 'Aissatou', 23, 'tal.jpg', 77777, 'chanteuse'),
     ];
   }
